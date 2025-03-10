@@ -24,8 +24,31 @@ header, footer {
 main {
     flex-grow: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+.background-logo {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.content-text {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    width: 240px;
+    transform: translateX(-100%);
+    text-align: end;
+}
+
+.content-image {
+    height: 85vh;
 }
 header {
     height: 100px;
