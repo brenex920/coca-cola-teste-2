@@ -6,4 +6,4 @@
 
 *HTML
 *CSS
-*github
+*githubz
